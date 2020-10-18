@@ -1,0 +1,212 @@
+body {
+  color:#40514E;
+  font-family: 'Merriweather', serif;
+  margin: 0; /* juz for removing the default margin space */
+  text-align: center;
+}
+
+p{
+  line-height: 2;
+}
+
+h1 {
+  color:#11999E;
+  font-family: 'Pacifico',cursive;
+  font-size:5.625rem;
+  font-weight: bold;
+  margin: 3.125rem auto 0 auto;
+}
+
+h2{
+  color:#66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size:2.5rem;
+  margin:1.25rem
+}
+
+h3 {
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+hr{
+  border-color:#EAF6F6;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 0.625rem;
+  margin:6.25rem auto;
+  width: 5%;
+}
+
+/* For navbar */
+
+.nav-link{
+  color: #66BFBF !important;
+  font-family: 'Montserrat',sans-serif ;
+  font-size: 1.3rem;
+  font-weight:600;
+  margin: 1rem 1rem 5rem 1rem;
+  }
+
+.nav-link:hover{
+  color: #11999E !important;
+}
+
+/* Top section */
+
+.top {
+  background-color: #EAF6F6; /* #e4f9f5 */
+  position: relative;
+}
+
+.top2heading{
+  padding:2rem;
+}
+
+.a-cloud {
+    position: absolute;
+    right: 18.75rem;
+    top: 7rem;
+}
+
+.b-cloud{
+  position: absolute;
+  bottom:18.75rem;
+  left:18.75rem;
+}
+
+/* middle section */
+
+.profile{
+  align-content: center;
+  margin:3rem 0;
+}
+
+.profile-description{
+  margin: auto; /*method to align the content at the center */
+  width: 30%;
+}
+
+.profile-image{
+  padding: 1rem;
+}
+
+/* skills section */
+
+.skill-row{
+  margin: 3.125rem auto 10rem auto; /* top and bottom, left and right */
+  text-align: left;
+  width: 50%;
+}
+
+.image1{
+  float: left;
+  margin-right: 1.875rem;
+  width:30%;
+}
+
+.image2{
+  float: right;
+  height: 14.375rem;
+  width:20.625rem;
+  margin-top: 0.625rem;
+  padding-bottom: 1rem;
+}
+
+/* Programming section */
+
+.Programming{
+  margin: 0 auto 9.375rem auto; /* top and bottom, left and right */
+  text-align: left;
+  width: 50%;
+}
+
+.programming-h2{
+  font-size: 2.2rem;
+  position: absolute;
+  left: 22.5rem;
+}
+
+.image3{
+  float: left;
+  height: 15rem;
+  margin:6rem 0.5rem 1rem 0;
+  width: 45%;
+  }
+
+.Programming-p{
+  position: relative;
+  top:5.25rem;
+}
+
+/* Languages section */
+
+.columns{
+  padding: 5% 0 5%;
+}
+
+.languages-ruler{
+  margin:3rem auto 7rem;
+}
+
+/*footer section  */
+
+.footer{
+  margin-top: 2rem;
+  background-color: #11999E;
+  padding: 1rem;
+}
+
+.link{
+  margin-left: 0.625rem;
+}
+
+.footer-p{
+  color: #EAF6F6;
+}
+
+.link:hover{
+  position: relative;
+  bottom:0.625rem;
+}
+
+/* media queries */
+
+@media (max-width:993px) {
+  body{
+    zoom:150%;
+  }
+  .themountain{
+    width: 80%;
+  }
+  .image3{
+    width:90%;
+  }
+  .programming-h2{
+    left: 6rem;
+  }
+  .a-cloud{
+    position: relative;
+    top:2rem;
+    left:0;
+  }
+  .b-cloud{
+    visibility: hidden;
+  }
+  .nav-link{
+    margin:5% 0 0 -80%;
+  }
+  .profile-description{
+    width: 45%;
+  }
+  .image1{
+    width:90%;
+  }
+  .languages-row{
+    zoom:60%;
+    width: 60%;
+    margin: auto;
+}
